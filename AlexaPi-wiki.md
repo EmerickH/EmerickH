@@ -70,8 +70,8 @@ To stop AlexaPi, right click on the Alexa icon on the taskbar and choose **Exit*
 
 ### Install manually
 
-* Download this repo (with git for Windows or with the [ZIP package](https://github.com/alexa-pi/AlexaPi/archive/master.zip))
-* Download swigwin-AlexaPi (with git for Windows or with the [ZIP package](https://github.com/EmerickH/swigwin-AlexaPi/archive/master.zip)) an put the `swigwin-AlexaPi-master` folder in the `src/scripts` folder
+* Download chocolatey, and run <code>choco install wget</code>
+* Download [the installation file]("https://github.com/jraspiprojects/AlexaPi-Windows/releases/latest")
 * Run src/scripts/setup.bat (see [below](#setup-script) for instructions)
 To run, start **start.bat**
 If it's not working, please start **debug.bat** and copy/paste the log in a new issue.
