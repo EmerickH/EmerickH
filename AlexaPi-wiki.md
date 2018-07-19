@@ -53,8 +53,8 @@ First you need to obtain a set of credentials from Amazon to use the Alexa Voice
 
 You need to have theses dependencies:
 * [Python](https://www.python.org/downloads/windows/) (tested with 3.6, needs pip)
-* [Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools)
-* Swigwin-AlexaPi (See on the installation steps)
+* ~~[Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools)~~
+* ~~Swigwin-AlexaPi (See on the installation steps)~~
 * [VLC](http://www.videolan.org/vlc/download-windows.html)
 
 You have now two option:
@@ -71,7 +71,7 @@ To stop AlexaPi, right click on the Alexa icon on the taskbar and choose **Exit*
 ### Install manually
 
 * Download this repo (with git for Windows or with the [ZIP package](https://github.com/alexa-pi/AlexaPi/archive/master.zip))
-* Download swigwin-AlexaPi (with git for Windows or with the [ZIP package](https://github.com/EmerickH/swigwin-AlexaPi/archive/master.zip)) an put the `swigwin-AlexaPi-master` folder in the `src/scripts` folder
+* ~~Download swigwin-AlexaPi (with git for Windows or with the [ZIP package](https://github.com/EmerickH/swigwin-AlexaPi/archive/master.zip)) an put the `swigwin-AlexaPi-master` folder in the `src/scripts` folder~~
 * Run src/scripts/setup.bat (see [below](#setup-script) for instructions)
 To run, start **start.bat**
 If it's not working, please start **debug.bat** and copy/paste the log in a new issue.
